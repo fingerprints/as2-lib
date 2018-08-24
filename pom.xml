@@ -32,6 +32,19 @@
   <url>https://github.com/phax/as2-lib</url>
   <inceptionYear>2013</inceptionYear>
 
+  <distributionManagement>
+    <repository>
+      <id>fingerprints.maven</id>
+      <name>Fingerprints Maven Repo</name>
+      <url>http://maven.fingerprintsoft.co/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>fingerprints.maven.snapshots</id>
+      <name>Fingerprints Maven Snapshot Repo</name>
+      <url>https://maven.fingerprintsoft.co/repository/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
   <licenses>
     <license>
       <name>BSD</name>
